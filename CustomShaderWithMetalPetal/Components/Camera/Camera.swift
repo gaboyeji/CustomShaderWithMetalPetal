@@ -21,8 +21,6 @@ final class Camera: NSObject {
         Debug.message(" \(className) released from memory")
     }
     
-    let queue = DispatchQueue(label: "com.pixpixapp.paperstore", attributes: [])
-    
     private var deviceInput: AVCaptureDeviceInput?
     private var deviceZoomFactor: CGFloat = 1.0
     
