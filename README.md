@@ -91,7 +91,10 @@ We use it this way because some additions were made to some files for our own us
   2. Set Team signing
   3. Connect physical device
   4. Enjoy!
-  
+
+## Sample image output
+![alt SampleImageOutput](https://github.com/gaboyeji/CustomShaderWithMetalPetal/blob/main/SampleOutput/IMG_8576.jpg?raw=true)
+
 ## Issues
 >If you experience any issues.
 
