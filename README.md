@@ -87,7 +87,7 @@ We use it this way because some additions were made to some files for our own us
 ```
 
 ## Test it out
-  1. Download the repo 
+  1. Download this repo 
   2. Set Team signing
   3. Connect physical device
   4. Enjoy!
