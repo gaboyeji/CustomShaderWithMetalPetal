@@ -4,7 +4,7 @@ This repo shows how to implement a stream of images with [MetalPetal](https://gi
 using custom shaders (vertex and fragment).
 
 >Most of the files in this repo should be self-explanatory.
-There are also additional comments within the individual files which hopefully should help.
+There are also additional comments within the individual files which should hopefully help.
 
 ## Main features
 1. Use of [MTIGeometry](https://github.com/MetalPetal/MetalPetal/blob/master/Frameworks/MetalPetal/MTIGeometry.h) protocol. (See [DistortionGeometry](https://github.com/gaboyeji/CustomShaderWithMetalPetal/blob/main/CustomShaderWithMetalPetal/Components/Filters/Distort/DistortFilter/DistortFilter.swift#L19) *Line: 19*)
