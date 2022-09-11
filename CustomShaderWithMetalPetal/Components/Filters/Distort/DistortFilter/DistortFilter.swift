@@ -69,21 +69,11 @@ class GADistortFilter: NSObject, MTIUnaryFilter {
         Debug.message(" \(className) released from memory")
     }
     
-    class var name: String { return "" }
-    
-    /// border image Name
-    var borderName: String { return "" }
-
     /// fragment shader name in Metal
     var fragmentName: String { return "GADistortFilterFragment" }
     
     /// fragment shader name in Metal
     var vertexName: String { return "GADistortFilterVertex" }
-
-    /// Textures, key should match parameter name
-    var samplers: [String: String] {
-        return [:]
-    }
     
     var parameters: [String: Any] {
         
@@ -95,7 +85,6 @@ class GADistortFilter: NSObject, MTIUnaryFilter {
     
     var outputPixelFormat: MTLPixelFormat = .bgra8Unorm
     var inputImage: MTIImage?
-    
     
     /// Set the geometry specification according needs
     /// Pay particular attention to texture dimension i.e. 'inputImage.dimensions'
@@ -119,6 +108,4 @@ class GADistortFilter: NSObject, MTIUnaryFilter {
         vertexFunctionDescriptor: MTIFunctionDescriptor(name: self.vertexName, libraryURL: MTIDefaultLibraryURLForBundle(Bundle.main)),
         fragmentFunctionDescriptor: MTIFunctionDescriptor(name: self.fragmentName, libraryURL: MTIDefaultLibraryURLForBundle(Bundle.main)))
     
-    
-
 }
