@@ -1,6 +1,6 @@
 # CustomShaderWithMetalPetal
 
-This repo shows how to implement a stream of images with [MetalPetal](https://github.com/MetalPetal/MetalPetal) framework, 
+This repo shows how to process a stream of images with [MetalPetal](https://github.com/MetalPetal/MetalPetal) framework, 
 using custom shaders (vertex and fragment).
 
 >Most of the files in this repo are self-explanatory.
