@@ -21,8 +21,6 @@ enum ErrorString: Error {
 }
 
 
-//https://blog.logrocket.com/swift-enums-an-overview-with-examples/
-//https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html
 enum CameraPreset {
     case vga640x480, hd1280x720, hd1920x1080
     
