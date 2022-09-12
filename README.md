@@ -80,25 +80,25 @@ class GADistortFilter: NSObject, MTIUnaryFilter { ... }
     * Controller mode observable
 
 
-## Word of caution
-```
-This is not the prefered way of using the MetalPetal framework in your project.
-    I.e. use the suggested dependency package manager (CocoaPods or Swift Package Manager)
+## Word of caution ‼️
 
-We use it this way because some additions were made to some files for our own use.
+- This is not the `prefered` way of using the MetalPetal framework in your project.
+    - I.e. use the suggested `dependency package manager` (CocoaPods or Swift Package Manager)
 
-```
+- We use it this way because some additions were made to some files for our own use.
 
-## Test it out
+
+
+## Test it out ✅
   1. Download this repo 
   2. Set Team signing
   3. Connect physical device
   4. Enjoy!
 
-## Sample image output
+## Sample image output📷
 ![alt SampleImageOutput](https://github.com/gaboyeji/CustomShaderWithMetalPetal/blob/main/SampleOutput/IMG_8576.jpg?raw=true)
 
-## Issues
+## Issues ❓
 >If you experience any issues.
 
 Create a [new issue](https://github.com/gaboyeji/CustomShaderWithMetalPetal/issues)
