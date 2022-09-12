@@ -8,7 +8,8 @@ There are also additional comments within the individual files which should hope
 
 ## Main features
 1. Use of [MTIGeometry](https://github.com/MetalPetal/MetalPetal/blob/master/Frameworks/MetalPetal/MTIGeometry.h) protocol. (See [DistortionGeometry](https://github.com/gaboyeji/CustomShaderWithMetalPetal/blob/main/CustomShaderWithMetalPetal/Components/Filters/Distort/DistortFilter/DistortFilter.swift#L19) *Line: 19*)
-```
+
+```swift
 struct DistortionGeometry {
     
     let points: MTIGeometry
@@ -54,7 +55,8 @@ struct DistortionGeometry {
 ```
 
 2. Distortion Model declaration. (See [DistortionParameters](https://github.com/gaboyeji/CustomShaderWithMetalPetal/blob/main/CustomShaderWithMetalPetal/Components/Filters/Distort/DistortFilter/DistortFilter.swift#L9)  *Line: 9*)
-```
+
+```swift
 struct DistortionParameters {
     var point: SIMD2<Float> = .zero
     var radius: Float = 0
@@ -67,7 +69,8 @@ struct DistortionParameters {
 ```
 
 3. Subclassing with [MTIUnaryFilter](https://github.com/MetalPetal/MetalPetal/blob/master/Frameworks/MetalPetal/Filters/MTIFilter.h). (See [GADistortFilter](https://github.com/gaboyeji/CustomShaderWithMetalPetal/blob/main/CustomShaderWithMetalPetal/Components/Filters/Distort/DistortFilter/DistortFilter.swift#L63) *Line: 63*) 
-```
+
+```swift
 class GADistortFilter: NSObject, MTIUnaryFilter { ... }
 ```
 
