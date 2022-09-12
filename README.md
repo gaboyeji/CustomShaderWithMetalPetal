@@ -99,7 +99,7 @@ class GADistortFilter: NSObject, MTIUnaryFilter { ... }
 ![alt SampleImageOutput](https://github.com/gaboyeji/CustomShaderWithMetalPetal/blob/main/SampleOutput/IMG_8576.jpg?raw=true)
 
 ## Issues ❓
->If you experience any issues.
+>If you experience any issues. 
 
 Create a [new issue](https://github.com/gaboyeji/CustomShaderWithMetalPetal/issues)
   * So everyone can benefit from it.
