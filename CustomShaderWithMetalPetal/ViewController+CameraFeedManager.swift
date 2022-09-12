@@ -20,7 +20,7 @@ extension ViewController: CameraFeedManager {
                 videoFrame = self.activateDistortFilter(videoFrame)
             }
             
-            // This simple unwrap guaranteed that the image feed does not
+            // This simple unwrap guarantees that the image feed does not
             // freeze when resuming from background to foreground
             guard let renderView = self.renderView else { return }
             renderView.image = videoFrame
