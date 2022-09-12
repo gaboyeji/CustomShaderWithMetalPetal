@@ -41,13 +41,13 @@ extension ViewController: ControllerObservableMode {
     func inBackground(_ notification: Notification) {
         self.releaseCamera()
         self.releaseUIElements()
-        Debug.message("Current in Background")
+        Debug.message("Currently in Background")
     }
     
     @objc
     func inForeground(_ notification: Notification) {
         // Do something if necessary while in active foreground mode
-        Debug.message("Will Foreground...")
+        Debug.message("Will enter Foreground...")
     }
     
     @objc
